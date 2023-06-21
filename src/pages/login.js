@@ -146,7 +146,7 @@ function Login() {
                       Sign Up
                     </Link>
                     <br/>
-                    <Link to="/forgot" className="ms-1 text-info fw-bold">Forgot Password</Link>
+                    <Link to="/forgot" className="ms-1 text-info fw-bold">Change Password</Link>
                   </button>
                 </div>
               </form>
