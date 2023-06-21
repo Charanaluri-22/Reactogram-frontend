@@ -77,7 +77,7 @@ const Forgot = () => {
 
   return (
     <div className="forget-password-form">
-      <h2>Forget Password</h2>
+      <h2>Change Password</h2>
       {isLoading ? (
         <div className="loading-spinner"></div>
       ) : (
@@ -114,7 +114,7 @@ const Forgot = () => {
             onChange={(e) => setConfirmPassword(e.target.value)}
             required
           /><br /><br />
-          <button type="submit">Reset Password</button>
+          <button type="submit">Change Password</button>
         </form>
       )}
     </div>
